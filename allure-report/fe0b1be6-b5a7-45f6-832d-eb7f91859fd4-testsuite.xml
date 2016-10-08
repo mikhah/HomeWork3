@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name xmlns="">ПроверкаРаботы</name>
+	<test-cases xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<test-case start="63610518779868" stop="63610518780112" status="pending">
+			<name>Генерация epf</name>
+			<failure>
+				<message>Не реализовано.</message>
+			</failure>
+			<steps>
+				<step start="63610518780109" stop="63610518780111" status="pending">
+					<name>Допустим у меня есть feature файл</name>
+					<title>Допустим у меня есть feature файл</title>
+				</step>
+				<step start="63610518780112" stop="63610518780112" status="skipped">
+					<name>Когда я запускаю генерацию epf</name>
+					<title>Когда я запускаю генерацию epf</title>
+				</step>
+				<step start="63610518780112" stop="63610518780112" status="skipped">
+					<name>Тогда должен появится каталог с соотв. обработкой</name>
+					<title>Тогда должен появится каталог с соотв. обработкой</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Генерация epf"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<label name="feature" value="ПроверкаРаботы"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>
